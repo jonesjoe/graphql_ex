@@ -1,0 +1,461 @@
+[{
+    "tags": ["hvac"],
+    "name": "UH - LoadingDock",
+    "id": "21a06d12-e933532f",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "condensed", "water", "loop", "coolingTowerPlant"],
+    "name": "CT-Plant",
+    "id": "218f3d74-e61772b8",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "decommissioned", "fcu"],
+    "name": "CRU 635-1 -offline",
+    "id": "21a06d0f-a2fa3f21",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE2_FC1_RTU-513A",
+    "id": "21a06d10-bc106378",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac"],
+    "name": "NAE5_FC1_05FEC004_Z2",
+    "id": "218f3d75-253eff98",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "decommissioned", "fcu"],
+    "name": "CRU 600 -offline",
+    "id": "21a06d12-5ded40ee",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "hot", "water", "pump"],
+    "name": "Pri HWS P-11",
+    "id": "21cd8fd3-f597406c",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac"],
+    "name": "NAE1_FC2_Vestibule31",
+    "id": "218f3d74-6b6815b8",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "condensed", "heatExchanger", "chilled"],
+    "name": "PHE-2",
+    "id": "21af4479-d544dbc8",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 110A",
+    "id": "218f3d74-90d8982a",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE2_FC2_RTU-609B",
+    "id": "21a06d13-09db4cd2",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE2_FC1_RTU-617B",
+    "id": "21a06d10-1102b935",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 530-2",
+    "id": "218f3d74-e7fe83e3",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 515",
+    "id": "218f3d74-2de153d8",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "decommissioned", "fcu"],
+    "name": "CRU 514 - offline",
+    "id": "218f3d74-5e941474",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 505",
+    "id": "218f3d74-14aca0f5",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 250",
+    "id": "218f3d74-22fec249",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac"],
+    "name": "NAE5_FC1_05FEC029",
+    "id": "218f3d75-3f5fa013",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 526",
+    "id": "218f3d74-57bb3eb0",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "decommissioned", "fcu", "ahu"],
+    "name": "CRU 210 -offline",
+    "id": "218f3d74-c5d8b1bd",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE5_FC1_RT8",
+    "id": "218f3d75-9b1919ce",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "chiller"],
+    "name": "Chiller1",
+    "id": "218f3d73-0e48747c",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 208",
+    "id": "218f3d75-bd4366f2",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fan", "exhaust", "air"],
+    "name": "EF-16",
+    "id": "21ea62f7-ca6f607d",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 528-1",
+    "id": "218f3d74-64bb4731",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "water", "chilled", "pump"],
+    "name": "CHWPump12",
+    "id": "21f135c6-251b1b49",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "loop", "chilled"],
+    "name": "NAE2_FC1_ChilledWP",
+    "id": "21a06d0e-08de4cfd",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "decommissioned", "fcu"],
+    "name": "CRU 608  -offline",
+    "id": "21a06d12-f41b0730",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "air", "fan", "return"],
+    "name": "AHU-7B-RAF",
+    "id": "22735c5a-0f520b9b",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "AHU-7E",
+    "id": "21af035f-ddfeaed0",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 217",
+    "id": "218f3d74-ea05a878",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["lightsGroup"],
+    "name": "New bldg_Lgts ctrl",
+    "id": "22a0516e-872aed70",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 158A",
+    "id": "218f3d74-5f8b401e",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 166",
+    "id": "218f3d74-726f9f69",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fan", "exhaust", "air"],
+    "name": "EF-9",
+    "id": "21fccadc-cc0031b7",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 114",
+    "id": "218f3d74-574e3b89",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 325",
+    "id": "218f3d74-aac9a25f",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 508B",
+    "id": "218f3d74-a36b07a8",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 435",
+    "id": "218f3d74-b07c1b15",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 540-3",
+    "id": "218f3d74-a3e9cdf1",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 101",
+    "id": "218f3d74-90cf6e3c",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 152",
+    "id": "218f3d74-88bacee8",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 378",
+    "id": "218f3d74-4fd3692d",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac"],
+    "name": "UH - SplkrRm",
+    "id": "218f3d74-9b402884",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fan", "exhaust", "air"],
+    "name": "EF-5",
+    "id": "21fccac1-cae04791",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "exhaust", "air", "fan"],
+    "name": "NAE2_FC1_RmEF29",
+    "id": "21fcc046-ca759f58",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 167A",
+    "id": "218f3d74-cb94c1dc",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 620",
+    "id": "21a06d0f-975f36cf",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac"],
+    "name": "NAE2_FC1_FEC-47",
+    "id": "21a06d10-04919c3d",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 516",
+    "id": "218f3d74-21e54478",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "decommissioned", "fcu"],
+    "name": "CRU 611-2 -offline",
+    "id": "21a06d12-8bed5e2e",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 230",
+    "id": "218f3d74-95b9a906",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "hot", "water", "loop"],
+    "name": "Pri HWS Loop",
+    "id": "21cd8f63-99099749",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE2_FC2_RTU-511B",
+    "id": "21a06d13-3cc7cfdb",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 342-1",
+    "id": "218f3d74-812ce2d1",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE5_FC1_MU4",
+    "id": "218f3d75-b1a81ccd",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 202A",
+    "id": "218f3d75-c21faf37",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "FCU-02 (H&M)",
+    "id": "21a06d0e-bca8fec0",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "decommissioned", "fcu"],
+    "name": "CRU 533-2 -offline",
+    "id": "218f3d74-f0f8c8b4",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "AHU-6B",
+    "id": "21af002d-83d187d8",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fan", "exhaust", "air"],
+    "name": "EF-1",
+    "id": "21ea6333-8180f144",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac"],
+    "name": "UH - BlrRm",
+    "id": "223c34c2-4c5d35a6",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 602",
+    "id": "21a06d12-46313dbf",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "air", "fan", "return"],
+    "name": "NAE5_FC1_RT5_RAF",
+    "id": "24c39580-5bcfb433",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "water", "chilled", "pump"],
+    "name": "CHWPump6",
+    "id": "21f13539-b74fede4",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 538",
+    "id": "218f3d74-dfd1cb7b",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["lightsGroup"],
+    "name": "Multi-level CP",
+    "id": "22a05ae5-bfcb7754",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 105",
+    "id": "218f3d74-9b5dedac",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 229",
+    "id": "218f3d74-68fa12f2",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 505A",
+    "id": "218f3d74-ca3bd138",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "AHU-6C",
+    "id": "21af0031-a5f34cb7",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["lightsGroup"],
+    "name": "Old bldg_Ltg panel LA&LB",
+    "id": "22a04faf-3f1c4cdc",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["lightsGroup"],
+    "name": "Old bldg_Ltg panel LCC",
+    "id": "22a04faf-87fecfc1",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 447",
+    "id": "218f3d74-6ca7b3dc",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "AHU-7F",
+    "id": "21af035f-c5a6c2d9",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 541-1",
+    "id": "218f3d74-4031876e",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE2_FC2_RTU-511C",
+    "id": "21a06d13-b642a291",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 532-2",
+    "id": "218f3d74-f9b25b66",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "water", "loop", "chilled"],
+    "name": "Promenade Block",
+    "id": "21cd6dd8-68196b92",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "decommissioned", "fcu"],
+    "name": "CRU 627 -offline",
+    "id": "21a06d0f-3aab7f42",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 316",
+    "id": "218f3d74-4f6bdfe2",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 351B",
+    "id": "218f3d74-da0c1d26",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE2_FC1_RTU-512",
+    "id": "21a06d10-53f9ad6b",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "fcu", "ahu"],
+    "name": "CRU 214",
+    "id": "218f3d74-2080bdc7",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 643-2",
+    "id": "21a06d10-1303f8d2",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "NAE5_FC1_RTH3",
+    "id": "218f3d75-c9e513c1",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "exhaust", "fan", "carpark"],
+    "name": "NAE1_FC2_SmokeAlarmPanel",
+    "id": "218f3d74-ca5ac5da",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 503",
+    "id": "218f3d74-6581fbef",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "air", "fan", "return"],
+    "name": "AHU-6B-RAF",
+    "id": "22735c5a-42c96411",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "rooftop"],
+    "name": "ParkingGarageVH1",
+    "id": "218f3d75-3a451db2",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 236A",
+    "id": "218f3d74-c927fb76",
+    "siteId": "218de6c9-ba0cb066"
+}, {
+    "tags": ["hvac", "ahu", "fcu"],
+    "name": "CRU 536-1",
+    "id": "218f3d74-78050b08",
+    "siteId": "218de6c9-ba0cb066"
+}]

@@ -1,0 +1,69 @@
+[{
+        "tags": ["sensor"],
+        "name": "OccStatus(Occupied)",
+        "id": "23ee093e-86012de2",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f"
+    }, {
+        "tags": ["cmd"],
+        "name": "CLG1-C",
+        "id": "21a06d12-b2907a19",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f"
+    },
+    {
+        "tags": ["heat", "cmd"],
+        "name": "HTG1-C",
+        "id": "21a06d12-0cdd5b55",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f"
+    }, {
+        "tags": ["air", "zone", "sensor"],
+        "name": "ZN-T",
+        "id": "21a06d12-56c6b48e",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f",
+        "unit": "°C"
+    },
+    {
+        "tags": ["sensor"],
+        "name": "SupplyFanAlarm",
+        "id": "21a06d12-335291db",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f"
+    }, {
+        "tags": ["heat", "air", "zone"],
+        "name": "ActualHeatingSP",
+        "id": "21a06d12-cc5d2945",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f",
+        "unit": "°C"
+    },
+    {
+        "tags": ["air", "fan", "cmd"],
+        "name": "SF-C",
+        "id": "21a06d12-1e322e28",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f"
+    }, {
+        "tags": ["air", "zone"],
+        "name": "UnOccpdSP",
+        "id": "21a06d12-70203c35",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f",
+        "unit": "°C"
+    },
+    {
+        "tags": ["sensor"],
+        "name": "Calculated schedule",
+        "id": "227363a0-f9b77252",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f",
+        "unit": "h"
+    }, {
+        "tags": ["sensor"],
+        "name": "UnoccWarmUp",
+        "id": "21a06d12-ac351350",
+        "siteId": "218de6c9-ba0cb066",
+        "deviceId": "21a06d12-e933532f"
+    }]

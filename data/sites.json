@@ -1,0 +1,37 @@
+[{
+        "id": "20d221c5-992c4496",
+        "name": "1 Queen St East",
+        "address": "1 Queen St East",
+        "city": "Toronto",
+        "state": "Ontario",
+        "area": 46730.0,
+        "postcode": "M5C 2W5",
+        "country": "CA",
+        "latitude": 43.6522127,
+        "longitude": -79.37
+    },
+    {
+        "name": "40&44 Peel Centre Dr",
+        "id": "2386da4e-4da77eb8",
+        "address": "44 Peel Centre Dr",
+        "city": "Brampton",
+        "state": "ON",
+        "area": 9000.0,
+        "postcode": "L6T 0E2",
+        "country": "CA",
+        "latitude": 43.715888,
+        "longitude": -79.726053
+    },
+    {
+        "name": "Bramalea City Centre",
+        "id": "218de6c9-ba0cb066",
+        "address": "25 Peel Centre Dr",
+        "city": "Brampton",
+        "state": "ON",
+        "area": 139354.0,
+        "postcode": "L6T 3R5",
+        "country": "CA",
+        "latitude": 43.7141931,
+        "longitude": -79.7262596
+    }
+]
