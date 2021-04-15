@@ -4,6 +4,8 @@ const SiteOrientConnector = require('../orientconnector/siteConnector');
 const { DataSource } = require('apollo-datasource');
 const _ = require('lodash');
 
+
+
 class SitesAPI extends DataSource {
   constructor() {
     super();
@@ -14,6 +16,7 @@ class SitesAPI extends DataSource {
 
   async getSites(args) {
     const siteValues=await this.siteConnector.getSites();
+    
     return _.filter(siteValues, args);
   }
 

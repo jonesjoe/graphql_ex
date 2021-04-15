@@ -21,28 +21,25 @@ module.exports = {
   },
   Point: {
     pointHistory(point, args, { dataSources }) {
-      const pointHistoryContent= dataSources.pointHistoryAPI.getPointHistoryById(point.id);
-      return _.filter(pointHistoryContent, args);
+      const pointHistoryContent= dataSources.pointHistoryLoader.loader.load(point.id);
+     return pointHistoryContent;
     }
   },
 
   Device: {
-    points(device, args, { dataSources }) {
-      const pointContent= dataSources.pointsAPI.getPointsByDeviceId(device.id);
-      return _.filter(pointContent, args);
+    points(device, args, { dataSources}) {
+      const pointContent= dataSources.pointLoader.loader.load(device.id);
+      return pointContent;
     }
   },
   Site: {
-    points(site, args, { dataSources }) {
-      const pointContent=  dataSources.pointsAPI.getPointsBySiteId(site.id);
+    points(site, args, { dataSources}) {
+      const pointContent= dataSources.pointsAPI.getPointsBySiteId(site.id);
       return _.filter(pointContent, args);
     },
-    devices(site, args, { dataSources }) {
-      const devicesContent= dataSources.devicesAPI.getDevicesBySiteId(site.id);
-      return _.filter(devicesContent, args);
-
+    devices(site, args, { dataSources}) {
+      const devicesContent=  dataSources.deviceLoader.loader.load(site.id);
+      return devicesContent;
     }
   }
-
-
 };
