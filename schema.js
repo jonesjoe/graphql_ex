@@ -9,11 +9,14 @@ module.exports = gql`
       state: String
       area: String
       ): [Site]
-     devices(tags: [String]
+     devices(first: Int
+      tags: [String]
       name: String): [Device] 
-     points(tags: [String] 
+     points(first: Int
+           tags: [String] 
           name: String):[Point] 
-    pointhistory(value: String 
+    pointhistory(first: Int 
+                value: String 
                 ts: String
                 id: String):[Point_History] 
       }
@@ -44,7 +47,8 @@ module.exports = gql`
     latitude: String
     longitude: String
     points:[Point]
-    devices(tags: [String]
+    devices(first: Int
+      tags: [String]
       name: String
       siteId: String):[Device]
   }
@@ -53,7 +57,8 @@ module.exports = gql`
     id: ID!
     name: String
     siteId: String
-    points(tags: [String]
+    points(first: Int 
+      tags: [String]
       name: String):[Point]
   }
   type Point{
@@ -62,7 +67,8 @@ module.exports = gql`
     deviceId: String
     siteId: String
     id: ID!
-    pointHistory(val: String
+    pointHistory(first: Int 
+      val: String
       ts: String) : [Point_History]
   }
   type Point_History{

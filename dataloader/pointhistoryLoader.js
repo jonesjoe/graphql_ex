@@ -6,8 +6,15 @@ class PointHistoryLoader extends DataSource {
     constructor() {
         super();
         this.pointHistoryConnector = new PointHistoryOrientConnector();
-        this.loader = new DataLoader(async (keys) => {
-            const pointHistories = await this.pointHistoryConnector.getPointHistoryByPoints(keys);
+        this.loader = new DataLoader(async (obj) => {
+            console.log(obj)
+
+            const keys=obj.map(val=>val.id);
+            const args=obj[0].args;
+            console.log(keys)
+            console.log(args)
+
+            const pointHistories = await this.pointHistoryConnector.getPointHistoryByPoints(keys,args);
             const grouping = {};
             pointHistories.forEach(pointHistory => {
                 grouping[pointHistory.id] = grouping[pointHistory.id] ? [...grouping[pointHistory.id], pointHistory] : [pointHistory]

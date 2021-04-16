@@ -5,7 +5,7 @@ class SiteOrientConnector  {
 
     constructor() {
  }
-    async getSites () {
+    async getSites (args) {
       const poolValue=await pool();
       const session = await poolValue.acquire();
             const sites = await session.query('SELECT from Site').all();

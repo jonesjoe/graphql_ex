@@ -11,7 +11,7 @@ class PointHistoryAPI extends DataSource {
   initialize(config) {}
 
  async getPointHistory(args) {
-      const pointhistory=await this.pointHistoryConnector.getPointHistory();
+      const pointhistory=await this.pointHistoryConnector.getPointHistory(args);
     return _.filter(pointhistory, args);
   }
 

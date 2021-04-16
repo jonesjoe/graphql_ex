@@ -14,18 +14,12 @@ class DevicesAPI extends DataSource {
   initialize(config) {}
 
   async getDevices(args) {
-      const deviceValues=await this.deviceConnector.getDevices();
+      const deviceValues=await this.deviceConnector.getDevices(args);
     //  console.log(deviceValues)
     return _.filter(deviceValues, args);
   }
 
-  async getDevicesBySiteId(siteid) {
-    deviceLoader.loader.load(siteid);
-    // load ids
-    //const deviceValues=await this.deviceConnector.getDevices();
-    //const devicesContent = _.filter(deviceValues, { siteId: siteid});
-    //return devicesContent;
-  } 
+ 
  
 }
 

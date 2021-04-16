@@ -4,21 +4,25 @@ class PointOrientConnector {
 
   constructor() {
   }
-  async getPoints() {
+  async getPoints(args) {
     const poolValue=await pool();
     const session = await poolValue.acquire();
-    const sites = await session.query('SELECT from Point limit 100').all();
+    const limit=args['first']?'limit '+args['first']:'';
+    console.log(limit)
+    const sites = await session.query('SELECT from Point '+limit).all();
     session.close();
     return sites;
   }
 
-  async getPointsByDeviceId(keys) {
+  async getPointsByDeviceId(keys, args) {
+    const limit=args['first']?'limit '+args['first']:'';
+    console.log(limit)
     const poolValue=await pool();
     const session = await poolValue.acquire();
       const idStrings = keys.map(id => "'" + id + "'");
     console.log('SELECT from point ' + keys.length)
     console.log(new Date());
-    const points = await session.query('SELECT from point where deviceId in [' + idStrings.join(',') + '] limit 100').all();
+    const points = await session.query('SELECT from point where deviceId in [' + idStrings.join(',') + '] '+limit).all();
     console.log('retrieved ' + points.length)
     console.log(new Date());
     session.close();

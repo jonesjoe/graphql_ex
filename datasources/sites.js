@@ -15,12 +15,16 @@ class SitesAPI extends DataSource {
   initialize(config) {}
 
   async getSites(args) {
-    const siteValues=await this.siteConnector.getSites();
-    
-    return _.filter(siteValues, args);
+    const siteValues=await this.siteConnector.getSites(args);
+    return siteValues;
   }
 
-  getSitesById(id) {
+  async getAllSites(args) {
+    const siteValues=await this.siteConnector.getSites(args);
+    return siteValues;
+  }
+
+  getSitesById(args) {
     _.filter(sites, { id: parseInt(id) });
     return Sites[0];
   }

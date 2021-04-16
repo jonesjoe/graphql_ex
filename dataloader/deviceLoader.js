@@ -5,8 +5,12 @@ const { DataSource } = require('apollo-datasource');
 class DeviceLoader extends DataSource {
     constructor() {
         super();
-        this.loader = new DataLoader(async (keys) => {
-            const devices = await this.deviceConnector.getDevicesbySiteIds(keys);
+        this.loader = new DataLoader(async (obj) => {
+            const keys=obj.map(val=>val.id);
+            const args=obj[0].args;
+            console.log(keys)
+            console.log(args)
+            const devices = await this.deviceConnector.getDevicesbySiteIds(keys,args);
             const grouping = {};
             devices.forEach(device => {
                 grouping[device.siteId] = grouping[device.siteId] ? [...grouping[device.siteId], device] : [device]
