@@ -8,33 +8,43 @@ module.exports = gql`
       city: String
       state: String
       area: String
-      ): [Site]
+      ): [Site] @hasRole(role: "realm:test")
      devices(first: Int
-      tags: [String]
-      name: String): [Device] 
+      tags: [String] 
+      name: String): [Device]
      points(first: Int
            tags: [String] 
           name: String):[Point] 
-    pointhistory(first: Int 
-                value: String 
+    pointhistory(value: String 
                 ts: String
-                id: String):[Point_History] 
+                id: String
+                timeStampRange: dateRange
+                valueRange: stringRange
+                timeStampGreaterThan: String
+                orderBy:[orderBy]
+                ):[Point_History] @hasRole(role: "point:access")
+      financialData:[Financial_Report]          
+      getSiteFlattenResult( siteName: String
+        deviceName: String 
+        deviceTags: [String]
+        pointName: String):[flattenSiteResult]
       }
-  type Session {
-    id: ID!
-    title: String!
-    description: String
-    startsAt: String
-    endsAt: String
-    room: String
-    day: String
-    format: String
-    track: String
-      @deprecated(
-        reason: "Too many sessions do not fit into a single track, we will be migrating to a tags based system in the future..."
-      )
-    level: String
-  }
+  
+    input dateRange {
+      start: String
+      end: String
+    }    
+
+    input orderBy{
+      orderBy:String
+      sort: SortDirection
+    }
+
+    input stringRange {
+      start: String
+      end: String
+    }  
+
   type Site {
     name: String
     id: ID!
@@ -46,6 +56,7 @@ module.exports = gql`
     country: String
     latitude: String
     longitude: String
+    weatherBySite: Weather
     points:[Point]
     devices(first: Int
       tags: [String]
@@ -67,12 +78,55 @@ module.exports = gql`
     deviceId: String
     siteId: String
     id: ID!
-    pointHistory(first: Int 
-      val: String
-      ts: String) : [Point_History]
+    pointHistory(value: String 
+      ts: String
+      id: String
+      timeStampRange: dateRange
+      valueRange: stringRange
+      timeStampGreaterThan: String
+      orderBy:[orderBy]) : [Point_History]
   }
   type Point_History{
     val: String
     ts: String
     id: String
-  }`;
+  }
+  type Weather {
+    timestamp: Int
+    location: String
+    condition: Int
+    description: String
+    temperature: Float
+    pressure: Float
+    humidity: Float
+    wind_speed: Float
+    wind_direction: Int
+    cloud_cover: Float
+    rain_volume: Float
+    snow_volume: Float
+   }
+   type Financial_Report {
+    property1: String,
+    property2: String,
+    property3: String
+   }
+   
+   
+   type flattenSiteResult{
+    siteName: String
+    deviceName: String 
+    deviceTags: [String]
+    pointName: String
+    pointTags: [String]
+    pointVal:String
+    pointTimetamp:String
+   }
+
+
+   
+
+   enum SortDirection {
+    ASCENDING
+    DESCENDING
+}
+   `;

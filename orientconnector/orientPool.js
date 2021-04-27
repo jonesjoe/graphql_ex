@@ -3,8 +3,10 @@ var OrientJs = require('orientjs');
 let pool;
 
  async function createPool(){
-     console.log("inside pool")
+     console.log("inside pool"+pool)
     if(!pool){
+      console.log("if pool"+pool)
+
 const client = await OrientJs.OrientDBClient.connect({
     host: "144.217.15.247",
     port: 2424

@@ -9,14 +9,12 @@ class PointLoader extends DataSource {
         this.loader = new DataLoader(async (obj) => {
             const keys=obj.map(val=>val.id);
             const args=obj[0].args;
-            console.log(keys)
-            console.log(args)
             const points = await this.pointConnector.getPointsByDeviceId(keys,args);
+            
             const grouping = {};
             points.forEach(point => {
                 grouping[point.deviceId] = grouping[point.deviceId] ? [...grouping[point.deviceId], point] : [point]
             });
-             console.log("PointLoader:"+keys.map(key => grouping[key]).length)
             return keys.map(key => grouping[key]);
         });
     }

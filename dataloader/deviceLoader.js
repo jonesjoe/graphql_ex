@@ -8,14 +8,11 @@ class DeviceLoader extends DataSource {
         this.loader = new DataLoader(async (obj) => {
             const keys=obj.map(val=>val.id);
             const args=obj[0].args;
-            console.log(keys)
-            console.log(args)
             const devices = await this.deviceConnector.getDevicesbySiteIds(keys,args);
             const grouping = {};
             devices.forEach(device => {
                 grouping[device.siteId] = grouping[device.siteId] ? [...grouping[device.siteId], device] : [device]
             });
-             console.log(keys.map(key => grouping[key]).length)
             return keys.map(key => grouping[key]);
         });
         this.deviceConnector = new DeviceOrientConnector();

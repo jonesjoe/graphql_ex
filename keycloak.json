@@ -1,0 +1,9 @@
+{
+    "realm": "master",
+    "auth-server-url": "https://kck.s2hweb.net/auth",
+    "ssl-required": "none",
+    "resource": "testClient",
+    "public-client": true,
+    "use-resource-role-mappings": true,
+    "confidential-port": 0
+  }

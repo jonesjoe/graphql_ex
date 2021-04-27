@@ -14,6 +14,7 @@ class DevicesAPI extends DataSource {
   initialize(config) {}
 
   async getDevices(args) {
+    console.log(args)
       const deviceValues=await this.deviceConnector.getDevices(args);
     //  console.log(deviceValues)
     return _.filter(deviceValues, args);

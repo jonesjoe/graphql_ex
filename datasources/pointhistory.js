@@ -20,6 +20,11 @@ class PointHistoryAPI extends DataSource {
     const pointHistoryContent = _.filter(pointhistory, { id: id});
     return pointHistoryContent;
   } 
+
+  async getPointHistoryValues() {
+    const pointhistory=await this.pointHistoryConnector.getPointHistoryValues();
+    return pointhistory;
+  } 
 }
 
 module.exports = PointHistoryAPI;
